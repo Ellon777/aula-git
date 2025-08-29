@@ -53,6 +53,30 @@ Podemos ver a situação do repositório a qualquer momento com `status`:
     git status
 ```
 
-**VERMELHO:** Quando os arquivos estão em vermelho, foram criados ou editados e não estão prontos para serem salvos, precisa rodar o `add`.
+**VERMELHO:** Quando os arquivos estão em vermelho, foram criados ou editados e não estão prontos para serem salvos, precisa rodar o `add`:
+
+O comando `add` prepara o arquivo para ser salvo, caso utilize com o nome do mesmo:
+```bash
+    git add nome-do-arquivo
+```
+
+E também prepara todos os arquivos para serem salvos da pasta em que estamos, caso utilize o ponto; `add .`:
+```bash
+    git add .
+```
 
 **VERDE:** Quando os arquivos estão verdes, já foram preparados para serem salvos, próximo passo é rodar o `commit`.
+
+O comando `commit` salva as alterações de um ou mais arquivos que já passaram pela fase do `add`:
+```bash
+    git commit
+```
+
+Utilize `- m ""` para adicionar uma mensagem, caso esqueça o motivo de ter salvado:
+```bash
+    git commit -m "Mensagem"
+```
+
+
+
+
