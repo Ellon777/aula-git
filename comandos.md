@@ -1,4 +1,4 @@
-# Comandos para git e Github
+# Comandos para Git e Github
 Neste arquivo iremos fazer um resumo de comandos para utilização do
 git e Github nas aulas de Desenvolvimento Web da Fatec Jahu.
 
