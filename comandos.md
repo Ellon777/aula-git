@@ -82,6 +82,23 @@ Utilize `- m ""` para adicionar uma mensagem, caso esqueça o motivo de ter salv
     git commit -m "Mensagem"
 ```
 
+Para sincronizar o repositório local com um criado no Github, utilizamos o `remote`
+```bash
+    git remote add origin <URL>
+```
+
+> O melhor caminho é utilizar ma segunda pparte de comandos que são apresentados na página do Github após criar um repositório.
+
+Para enviar os commits para o Github utilizamos o `push`.
+```bash
+    git push
+```
+
+> Na primeira execução deve ser utilizado o push como apresentado na página do Github.
+
+
+
+
 
 
 
