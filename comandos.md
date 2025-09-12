@@ -96,7 +96,11 @@ Para enviar os commits para o Github utilizamos o `push`.
 
 > Na primeira execução deve ser utilizado o push como apresentado na página do Github.
 
-
+Para receber as alterações feitas em outro computador que estão no Github para o computador atual
+usamos o `pull`
+```bash
+    git pull
+```
 
 
 
