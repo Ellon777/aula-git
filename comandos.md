@@ -43,8 +43,8 @@ Para utilizar o git precisamos instalar no computador através do site:(https://
 
 **CONFIGURAR O USUÁRIO E EMAIL**
 ```bash
-    git config --global user.name "Elias Michelon"
-    git config --global user.email xgamerblackwinter@gmail.com
+    git config --global user.name "Nome"
+    git config --global user.email email@email.com
 ```
 
 Para começar a versionar uma pasta com git utilizamos o comando `init`:
